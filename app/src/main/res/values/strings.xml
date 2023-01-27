@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FitnessKitTest</string>
+    <string name="label_exercises">Занятия</string>
+    <string name="label_applications">Заявки</string>
+    <string name="action_add">Добавить</string>
+    <string name="action_chat">Чат</string>
+    <string name="action_more">Ещё</string>
+    <string name="label_schedule">Расписание</string>
+</resources>

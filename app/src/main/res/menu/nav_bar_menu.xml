@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/exercises"
+        android:icon="@drawable/ic_exercises"
+        android:title="@string/label_exercises" />
+    <item
+        android:id="@+id/applications"
+        android:icon="@drawable/ic_check"
+        android:title="@string/label_applications" />
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add"
+        android:title="@string/action_add" />
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/action_chat" />
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_more"
+        android:title="@string/action_more" />
+</menu>

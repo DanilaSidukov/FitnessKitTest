@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    app:cardCornerRadius="8dp"
+    app:strokeColor="?color_grey2"
+    app:strokeWidth="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="14dp">
+
+        <TextView
+            android:id="@+id/start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="15dp"
+            android:textColor="?color_black"
+            tools:text="13:45" />
+
+        <TextView
+            android:id="@+id/end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_training_name"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="10dp"
+            android:textColor="?color_black"
+            tools:text="14:45" />
+
+        <TextView
+            android:id="@+id/text_training_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/start_time"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="13dp"
+            android:textColor="?color_black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:text="Йога" />
+
+        <ImageView
+            android:id="@+id/image_person"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/text_training_name"
+            android:layout_alignStart="@id/text_training_name"
+            android:layout_marginTop="11dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_person" />
+
+        <TextView
+            android:id="@+id/text_trainer"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_training_name"
+            android:layout_alignStart="@id/image_person"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="12dp"
+            android:drawablePadding="10dp"
+            android:gravity="center|start"
+            android:textColor="?color_black"
+            android:textSize="13sp"
+            tools:text="Мишенин Даниил" />
+
+        <ImageView
+            android:id="@+id/image_location"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/text_training_name"
+            android:layout_alignStart="@id/text_trainer"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="11dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_location" />
+
+        <TextView
+            android:id="@+id/text_location_name"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_training_name"
+            android:layout_alignStart="@id/image_location"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center|start"
+            android:textColor="?color_black"
+            android:textSize="11sp"
+            tools:text="Тренажерный зал" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/view_marker"
+        android:layout_width="9dp"
+        android:layout_height="match_parent"
+        android:background="?color_orange"
+        app:shapeAppearanceOverlay="@style/CardView.ShapeAppearanceOverlay.RegionCard" />
+
+</com.google.android.material.card.MaterialCardView>
