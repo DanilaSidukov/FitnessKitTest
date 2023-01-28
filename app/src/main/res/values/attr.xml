@@ -7,5 +7,6 @@
     <attr name="color_grey3" format="color" />
     <attr name="color_orange" format="color" />
     <attr name="color_green" format="color" />
+    <attr name="color_white" format="color" />
 
 </resources>
